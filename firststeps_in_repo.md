@@ -26,3 +26,24 @@
 
 ### Pull from server
 - `$ git pull`
+
+
+### Back ground info
+
+#### Git stages: 
+
+c)  Commit staged for commit
+    - ready for commit to synchronise the repo on the server
+    - push to server to "clear" local master branch  
+b)  changes not staged for commit
+    - Stage when you made changes in your existing (previously added with `$ git add`) file
+    - worked on multiple files? use `$ git commit -a -m "descriptive" `  
+a)  untracked 
+    - When you create a file for the first time
+    - after `$ git status` file is in red in the untracked-stage
+    - steps: status, add, status, commit, status, push
+    - add multiple files? use `$ git add *.md`  
+
+### Don't forget
+
+- always save your files before adding, committing and pushing 
