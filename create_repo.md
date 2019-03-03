@@ -1,5 +1,5 @@
 # Git Demo Day
-
+[git cheat-sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 ### Clone
 - Create repo in Github online
 - Go to folder iterm
@@ -23,3 +23,4 @@
 ### Push to server
 - push all previous commits (changes) to server (in Github.com)
 - `$ git push` 
+
