@@ -24,3 +24,5 @@
 - push all previous commits (changes) to server (in Github.com)
 - `$ git push` 
 
+### Pull from server
+- `$ git pull`
